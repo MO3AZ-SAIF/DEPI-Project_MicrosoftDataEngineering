@@ -65,6 +65,7 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 - **Crime Management:** `Crimes`.  
 - **Health Management:** `HealthRecords`, `Conditions`.  
 - **Program Management:** `Programs`, `Participation`.  
+![Database Diagram](images/DatabaseSchema.png)
 
 ---
 
