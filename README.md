@@ -136,4 +136,3 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 For detailed documentation and code, refer to the respective directories in this repository.  
 
 ---  
-**Empowering correctional facilities with data-driven solutions for a safer future.**  
