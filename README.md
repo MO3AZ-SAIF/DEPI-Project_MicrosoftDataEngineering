@@ -64,7 +64,8 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 - **Inmate Management:** `Inmates`, `Facilities`, `Sentences`, `DisciplinaryActions`.  
 - **Crime Management:** `Crimes`.  
 - **Health Management:** `HealthRecords`, `Conditions`.  
-- **Program Management:** `Programs`, `Participation`.  
+- **Program Management:** `Programs`, `Participation`.
+
 ![Database Diagram](Images/DatabaseSchema.png)
 
 ---
@@ -79,6 +80,8 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 - **Data Cleansing:** Removed duplicates by truncating tables before loading new data.  
 - **User Notifications:** Included process notifications via Script Tasks.  
 
+![SSIS](Images/SSISPackage.png)
+
 ---
 
 ## Graphical User Interface  
@@ -90,14 +93,30 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 - **Technology Stack:** Python (Tkinter, PyODBC), TkCalendar for date selection.  
 - **User-Friendly Design:** Modular navigation, error handling, and aesthetic layouts.  
 
+![GUI](Images/GUI.png)
+
 ---
 
 ## Azure Services for Cloud Scalability  
 ### Pipeline Overview  
-1. **Ingestion:** Data from SQL Server to Azure Data Lake via Azure Data Factory.  
-2. **Transformation:** Data cleaned and structured in Databricks under the medallion architecture.  
-3. **Storage:** Processed data saved in Azure Data Lake Gen2 (Parquet format).  
-4. **Analysis:** Data analyzed and visualized using Azure Synapse Analytics and Power BI.  
+
+![Pipeline](Images/Pipeline.png)
+
+1. **Ingestion:** Data from SQL Server to Azure Data Lake via Azure Data Factory.
+
+![Ingestion](Images/ADF_Pipeline.png)
+
+2. **Transformation:** Data cleaned and structured in Databricks under the medallion architecture.
+
+![Transformation](Images/DataBricks_Notebooks.png)
+ 
+3. **Loading:** Processed data saved in Azure Data Lake Gen2 (Parquet format).
+
+![Data Loading](Images/DataLake_Gen2.jpg)
+
+4. **Data Warehouse:** Data analyzed and visualized using Azure Synapse Analytics and Power BI.
+
+![Data Warehouse](Images/Data_Warehouse_Schema.png)
 
 ---
 
