@@ -128,8 +128,8 @@ PMS operates on a **modern cloud-based architecture**, integrating:
 ---
 
 ### Contributors  
-- **Moaaz Abu Saif** - Team Leader, Project Manager  
-- **Mohamed Salah** - Data Engineer, ETL Developer  
+- **Moaaz Abu Saif** - Team Leader, Project Manager، @MO3AZ-SAIF  
+- **Mohamed Salah** - ETL Developer  
 - **Mohamed Mohsen** - Database Designer  
 - **Mohamed Rady** - GUI Developer  
 
